@@ -18,10 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-	### Make a Get Request--returns a hash of json
-	client = Stockholmfilmfest::Client.new("http://api.stockholmfilmfestival.se/v1/films/film/film_id/[filmId number]/format/json/API-Key/[your api key]/")
-	client.get
+	### Get an API Key
 
+	Register for an API Key at [http://api.stockholmfilmfestival.se/?msg=1](http://api.stockholmfilmfestival.se/?msg=1)
+
+	### Require the gem
+
+	require 'stockholmfilmfest'
+
+	### Make a GET request--returns a hash of json
+
+	`client = Stockholmfilmfest::Client.new("http://api.stockholmfilmfestival.se/v1/films/film/film_id/[filmId number]/format/json/API-Key/[your api key]/")
+	client.get`
 
 ## Contributing
 
