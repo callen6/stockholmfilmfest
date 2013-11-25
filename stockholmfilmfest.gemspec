@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Stockholmfilmfest::VERSION
   spec.authors       = ["Cori Allen"]
   spec.email         = ["coriallen@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{stockholmfilmfest makes working with the Stockholm Film Festival's API easy in Ruby programs}
+  spec.summary       = %q{work with film festival api}
   spec.homepage      = ""
   spec.license       = "MIT"
 
