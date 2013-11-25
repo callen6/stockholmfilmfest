@@ -2,9 +2,11 @@ require "httparty"
 require "json"
 
 module Stockholmfilmfest
+  
   class Client
 
   	attr_accessor :url
+
   	def initialize(url)
   		@url = url
   	end
@@ -13,7 +15,6 @@ module Stockholmfilmfest
   		response = HTTParty.get(self.url).to_json
   	end
 
-
-
   end
+
 end

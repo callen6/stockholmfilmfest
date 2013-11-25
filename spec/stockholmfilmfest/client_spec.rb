@@ -12,8 +12,11 @@ describe Stockholmfilmfest::Client do
 		response = cl.get
 		json_response = JSON.parse(response)
 		json_response["filmId"].should eq "3"
+		puts json_response
 	end
 
-	# it "should "
+	it "should get the filmId" do 
+
+	end
 
 end
