@@ -1,4 +1,5 @@
 require "stockholmfilmfest/version"
+require "httparty"
 
 module Stockholmfilmfest
   class Client
@@ -9,7 +10,7 @@ module Stockholmfilmfest
   	end
 
   	def get
-  		
+  		response = HTTParty.get(self.url).to_json
   	end
 
 
