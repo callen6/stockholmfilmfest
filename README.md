@@ -18,8 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-	### Installation
-	### Usage Examples
+	### Make a Get Request--returns a hash of json
+	client = Stockholmfilmfest::Client.new("http://api.stockholmfilmfestival.se/v1/films/film/film_id/[filmId number]/format/json/API-Key/[your api key]/")
+	client.get
+
 
 ## Contributing
 
