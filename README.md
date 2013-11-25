@@ -1,6 +1,6 @@
 # Stockholmfilmfest
 
-TODO: Write a gem description
+Stockholmfilmfest makes it easy to work with the Stockhold Film Festival's API in your Ruby program.
 
 ## Installation
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+	### Installation
+	### Usage Examples
 
 ## Contributing
 
