@@ -1,6 +1,5 @@
 require_relative '../spec_helper'
-require 'Stockholmfilmfest'
-require 'json'
+require 'stockholmfilmfest'
 
 describe Stockholmfilmfest::Client do 
 	it "should have a URL endpoint" do 
@@ -15,5 +14,6 @@ describe Stockholmfilmfest::Client do
 		json_response["filmId"].should eq "3"
 	end
 
+	# it "should "
 
 end
