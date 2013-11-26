@@ -32,7 +32,5 @@ module Stockholmfilmfest
   		return filmYoutubeId
   	end
 
-
-
   end
 end
