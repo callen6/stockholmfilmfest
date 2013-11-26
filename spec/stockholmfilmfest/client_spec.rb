@@ -4,7 +4,7 @@ require 'stockholmfilmfest'
 describe Stockholmfilmfest::Client do 
 	# set up before do that creates a client
 	before(:each) do
-		@cllient = Stockholmfilmfest::Client.new('http://api.stockholmfilmfestival.se/v1/films/film/film_id/3/format/json/API-Key/M61ps8d8v2QGXl2K0ccQwk4EbEfl0a9JVwwCuN0f/')
+		@client = Stockholmfilmfest::Client.new('http://api.stockholmfilmfestival.se/v1/films/film/film_id/3/format/json/API-Key/M61ps8d8v2QGXl2K0ccQwk4EbEfl0a9JVwwCuN0f/')
 	end
 
 
