@@ -15,6 +15,16 @@ module Stockholmfilmfest
   		response = HTTParty.get(self.url).to_json
   	end
 
-  end
+  	def get_filmId
+  		response = HTTParty.get(self.url).to_json
+  		filmId = response["filmId"]
+  		return filmId
+  	end
 
+  	def get_filmName_en
+  		response = HTTParty.get(self.url).to_json
+  		filmName_en = response["filmName_en"]
+  		return filmName_en
+  	end
+  end
 end
