@@ -18,22 +18,22 @@ Or install it yourself as:
 
 ## Usage
 
-	### Get an API Key
+### Get an API Key
 
-	Register for an API Key at [http://api.stockholmfilmfestival.se/?msg=1](http://api.stockholmfilmfestival.se/?msg=1)
+Register for an API Key at [http://api.stockholmfilmfestival.se/?msg=1](http://api.stockholmfilmfestival.se/?msg=1)
 
-	### Require the gem
+### Require the gem
 
-	require 'stockholmfilmfest'
+`require 'stockholmfilmfest'`
 
-	### Make a GET request--returns a hash of json
+### Make a GET request--returns a hash of json
 
-	`client = Stockholmfilmfest::Client.new("http://api.stockholmfilmfestival.se/v1/films/film/film_id/[filmId number]/format/json/API-Key/[your api key]/")
+`client = Stockholmfilmfest::Client.new("http://api.stockholmfilmfestival.se/v1/films/film/film_id/[filmId number]/format/json/API-Key/[your api key]/")
 	client.get`
 
-	### Get the film's ID number assigned by SFF
+### Get the film's ID number assigned by SFF
 
-	### Get the English name of a film
+### Get the English name of a film
 
 ## Contributing
 
