@@ -2,7 +2,10 @@ require_relative '../spec_helper'
 require 'stockholmfilmfest'
 
 describe Stockholmfilmfest::Client do 
-	before 
+	# set up before do that creates a client
+
+
+
 	it "should have a URL endpoint" do 
 		cl = Stockholmfilmfest::Client.new('http://api.stockholmfilmfestival.se/v1/films/film/film_id/3/format/json/API-Key/M61ps8d8v2QGXl2K0ccQwk4EbEfl0a9JVwwCuN0f/')
 		cl.should respond_to :url
@@ -27,4 +30,9 @@ describe Stockholmfilmfest::Client do
 		response.should eq "Outside Love"
 	end
 
+	it "should get the youtube id of the film" do
+		cl = Stockholmfilmfest::Client.new('http://api.stockholmfilmfestival.se/v1/films/film/film_id/3/format/json/API-Key/M61ps8d8v2QGXl2K0ccQwk4EbEfl0a9JVwwCuN0f/')
+		response = cl.get_filmYoutubeId
+		response.should eq ""
+	end
 end

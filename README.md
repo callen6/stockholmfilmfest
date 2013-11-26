@@ -31,6 +31,10 @@ Or install it yourself as:
 	`client = Stockholmfilmfest::Client.new("http://api.stockholmfilmfestival.se/v1/films/film/film_id/[filmId number]/format/json/API-Key/[your api key]/")
 	client.get`
 
+	### Get the film's ID number assigned by SFF
+
+	### Get the English name of a film
+
 ## Contributing
 
 1. Fork it
